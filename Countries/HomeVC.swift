@@ -13,6 +13,7 @@ class HomeVC: UIViewController {
     let BASE_URL: String = "https://wft-geo-db.p.rapidapi.com"
     let firstPath: String = "/v1/geo/countries?limit=10"
     var nextPath: String?
+    
     var isDataLoading = false
     
     let AUTH_HEADERS: HTTPHeaders = [
